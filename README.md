@@ -45,7 +45,7 @@ func paramaterLabel(for string: String) {
 paramaterLabel(for: "Ahmet")
 ```
 
-**Default Parameter Function:**
+**Default parameter function:**
 ```
 func defaultParam(_ first: String, second: Bool = true) {
     if second == true {
@@ -83,7 +83,7 @@ func throwFunction12(_ function12: String) throws -> Bool {
 try throwFunction12("function12")
 ```
 
-**inout parameters:**
+**Inout parameters:**
 ```
 func inoutFunction(param: inout Int) {
     param = param * 8
